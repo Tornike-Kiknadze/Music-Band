@@ -11,29 +11,28 @@
   position: relative;
   width: 75%;
   height: 100%;
+ 
 
-  color: white;
+   
+ 
 }
 .home-gradient {
   position: absolute;
+   font-family: 'Finger Paint', cursive;
   width: 100%;
   height: 10%;
   top: 25%;
-
+ color:#28B8EA;
+ font-weight: lighter;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  background: rgba(0, 0, 0, 0.541);
+  font-size: 3rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.589);
 }
 
-.content h2 {
-  writing-mode: vertical-rl;
-  -webkit-writing-mode: vertical-rl;
-  position: absolute;
-  left: 2rem;
-  bottom: 8rem;
-}
+ 
 .nav {
   width: 25%;
   color: white;
