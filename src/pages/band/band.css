@@ -130,6 +130,7 @@
   margin-right: 0  ;
 }
 .gallery .item:hover {
+  
   flex: 4;
   border-radius: 5px;
   z-index: 2;
@@ -141,10 +142,11 @@
   background-image: url('./sh.jpg');
 }
 .gallery .item-2 {
-  background-image: url('./stef.jpg');
+  background-image: url('./stef.jpg'); 
 }
 .gallery .item-3 {
   background-image: url('rusa.jpg');
+  
 }
 .gallery .item-4 {
   background-image: url("dat.JPG");
