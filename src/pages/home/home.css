@@ -1,7 +1,7 @@
 .home-wrapper {
   position: absolute;
   width: 100%;
-  transition: all ease 0.41s;
+  transition: all ease-in-out 0.3s;
   height: 100%;
   top: 0;
   display: flex;

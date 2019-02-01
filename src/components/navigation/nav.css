@@ -6,6 +6,13 @@
 }
 .cell {
 } */
+
+.active {
+  color: white;
+  background-color: #fff;
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
+}
 .dots {
   position: absolute;
   right: 0;
