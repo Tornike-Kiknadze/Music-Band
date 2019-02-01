@@ -21,7 +21,12 @@ class App extends Component {
                 <NavBar />
                 <AudioPlayer />
                 <TransitionGroup>
-                  <CSSTransition key={location.key} classNames="fade">
+                  <CSSTransition
+                    key={location.key}
+                    classNames="fade"
+                    timeout={400}
+                    unmountOnExit
+                  >
                     <Switch location={location}>
                       {" "}
                       {/*    <AudioPlayer /> */}

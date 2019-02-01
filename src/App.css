@@ -9,12 +9,21 @@
   transition: all 12s linear;
 } */
 .fade-enter {
-  opacity: 1;
-  transition: all 2s linear 2s;
+  opacity: 0;
+  z-index: 1;
+  transition: all 470ms ease-in;
+  transform: translateX(-2100px);
 }
 
 .fade-exit {
-  opacity: 0;
-  transform: translateX(-6600px);
-  transition: all 2s linear;
+  position: absolute;
+
+  opacity: 0.5;
+  transform: translateX(2100px);
+  transition: all 470ms ease-in;
+}
+.fade-exit-active {
+  position: absolute;
+
+  opacity: 2;
 }

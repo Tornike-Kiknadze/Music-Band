@@ -1,13 +1,10 @@
 .home-wrapper {
   position: absolute;
   width: 100%;
-  transition: all ease 2s;
+  transition: all ease 0.41s;
   height: 100%;
   top: 0;
   display: flex;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .home {
   position: relative;
