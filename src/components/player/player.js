@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactJkMusicPlayer from "react-jinke-music-player";
 import "react-jinke-music-player/assets/index.css";
 import './player.css';
-import purple from "../../assets/music/purple.mp3";
+import silence from "../../assets/music/silence.mp3";
 import coveri from "../../assets/albumArt/cover.jpg";
 
 class AudioPlayer extends Component {
@@ -11,10 +11,10 @@ class AudioPlayer extends Component {
       //audio lists model
       audioLists: [
         {
-          singer: "prince",
+          singer: "Blue Cat",
           cover: "xx.jpg",
-          name: "purple",
-          musicSrc: purple,
+          name: "silence",
+          musicSrc: silence,
           cover: coveri
         }
       ]
