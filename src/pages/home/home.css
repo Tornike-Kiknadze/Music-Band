@@ -1,9 +1,10 @@
 .home-wrapper {
   position: absolute;
   width: 100%;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out .5s;
   height: 100%;
   top: 0;
+  background-color: rgba(22, 20, 20, 0.623);
   display: flex;
 }
 .home {
@@ -50,4 +51,11 @@
   background: #12c2e9;
   background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+.home-gradient.fade-enter {
+  transform: translateY(-2000px);
+}
+
+.home-gradient .fade-exit {
+  transform: translateY(2100px);
 }

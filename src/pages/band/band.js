@@ -9,16 +9,12 @@ class Band extends Component {
   render() {
     return (
       <div className="panel-wrapper">
-        <div class="panel">
-          <div class="panel__item panel__item--1" />
-          <div class="panel__item panel__item--2" />
-          <div class="panel__item panel__item--3">
-            {" "}
-            <p>dato bichiashvili</p>
-          </div>
-          <div class="panel__item panel__item--4" />
-          <div class="panel__item panel__item--5" />
-          <div class="panel__item panel__item--6" />
+        <div class="gallery">
+          <div class="item item-1"></div>
+          <div class="item item-2"></div>
+          <div class="item item-3"></div>
+          <div class="item item-4"></div>
+          <div class="item item-5"></div>
         </div>
       </div>
     );

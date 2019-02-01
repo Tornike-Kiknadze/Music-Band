@@ -19,12 +19,12 @@ class App extends Component {
               <Container>
                 {" "}
                 <NavBar />
-                <AudioPlayer />
+
                 <TransitionGroup>
                   <CSSTransition
                     key={location.key}
                     classNames="fade"
-                    timeout={180}
+                    timeout={280}
                     unmountOnExit
                   >
                     <Switch location={location}>
@@ -34,7 +34,7 @@ class App extends Component {
                       <Route exact path="/band" component={Band} />
                     </Switch>
                   </CSSTransition>
-                </TransitionGroup>{" "}
+                </TransitionGroup>{" "}    <AudioPlayer />
               </Container>
             )}
           />

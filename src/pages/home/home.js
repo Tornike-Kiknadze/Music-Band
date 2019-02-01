@@ -6,7 +6,7 @@ class Home extends Component {
       <React.Fragment>
         <div class="home-wrapper">
           <div className="home">
-            <div className="home-gradient">
+            <div className="home-gradient fade">
               {" "}
               <h1>BLUE CAT</h1>{" "}
             </div>

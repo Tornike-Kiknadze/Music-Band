@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactJkMusicPlayer from "react-jinke-music-player";
 import "react-jinke-music-player/assets/index.css";
-
+import './player.css';
 import purple from "../../assets/music/purple.mp3";
 import coveri from "../../assets/albumArt/cover.jpg";
 
@@ -21,7 +21,7 @@ class AudioPlayer extends Component {
     };
 
     return (
-      <React.Fragment>
+      <div className="zet">
         {" "}
         <ReactJkMusicPlayer
           audioLists={options.audioLists}
@@ -30,7 +30,7 @@ class AudioPlayer extends Component {
           mode={"full"}
           defaultPosition={{ bottom: 40, right: 40 }}
         />
-      </React.Fragment>
+      </div>
     );
   }
 }
