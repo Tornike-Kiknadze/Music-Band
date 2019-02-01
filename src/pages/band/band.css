@@ -172,6 +172,5 @@
 }
 .gallery .item-3 {
   background-image: url("./irakli.jpg");
-  background-position:center center;
-  background-size: cover;
+  background-position:50%;
 }

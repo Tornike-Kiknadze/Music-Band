@@ -4,18 +4,28 @@
   transition: all ease-in-out .5s;
   height: 100%;
   top: 0;
-  background-color: rgba(22, 20, 20, 0.623);
+  background-color: rgba(22, 20, 20, 0.8);
   display: flex;
 }
 .home {
   position: relative;
   width: 75%;
   height: 100%;
- 
-
-   
- 
 }
+
+.type-wrapper{
+  text-transform: uppercase;
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  line-height: 2rem;
+  bottom: 0;
+  
+  color: rgba(255, 255, 255, 0.507);
+ text-align: left;
+ margin-left: 3rem;
+}
+
 .home-gradient {
   position: absolute;
    font-family: 'Finger Paint', cursive;
@@ -26,10 +36,10 @@
  font-weight: lighter;
   display: flex;
   align-items: center;
-  justify-content: center;
+  
   font-size: 3rem;
   padding: 2rem;
-  background: rgba(0, 0, 0, 0.589);
+  background: rgba(0, 0, 0, 0.5);
 }
 
  
