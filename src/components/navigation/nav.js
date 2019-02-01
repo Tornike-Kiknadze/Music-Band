@@ -11,36 +11,32 @@ class NavBar extends Component {
 
   render() {
     return (
-      <div className="nav">
-        <div className="nav-gradient" />
-
-        <div class="table">
-          <div class="cell">
-            <ul class="dots">
-              <li>
-                <NavLink exact activeClassName="active" to="/">
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink activeClassName="active" to="/band">
-                  about
-                </NavLink>
-              </li>
-              <li>
-                <NavLink activeClassName="active" to="/rame">
-                  rame
-                </NavLink>
-              </li>
-              <li>
-                <NavLink activeClassName="active" to="/rume">
-                  rume
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      /*    <div class="table">
+        <div class="cell"> */
+      <ul class="dots">
+        <li>
+          <NavLink exact activeClassName="active" to="/">
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="active" to="/band">
+            about
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="active" to="/rame">
+            rame
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="active" to="/rume">
+            rume
+          </NavLink>
+        </li>
+      </ul>
+      /*    </div>
+      </div> */
     );
   }
 }

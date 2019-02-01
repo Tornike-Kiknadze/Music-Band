@@ -2,3 +2,19 @@
   text-align: center;
   height: 100vh;
 }
+/* .fade-entered {
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(460deg);
+  transition: all 12s linear;
+} */
+.fade-enter {
+  opacity: 1;
+  transition: all 2s linear 2s;
+}
+
+.fade-exit {
+  opacity: 0;
+  transform: translateX(-6600px);
+  transition: all 2s linear;
+}

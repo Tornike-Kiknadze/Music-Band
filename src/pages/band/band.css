@@ -1,6 +1,16 @@
+.panel-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  transition: all ease 2s;
+}
 .panel {
   display: flex;
   flex-direction: row;
+
+  height: 100%;
+  width: 100%;
 }
 
 .panel__item {
@@ -67,6 +77,12 @@
 }
 
 .panel__item--4 {
+  background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
+}
+.panel__item--5 {
+  background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
+}
+.panel__item--6 {
   background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
 }
 
