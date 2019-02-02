@@ -28,10 +28,9 @@ class App extends Component {
                   >
                     <Switch location={location}>
                       {" "}
-                      {/*    <AudioPlayer /> */}
-                      <Route exact path="/" component={Home} />{" "}
-                      <Route exact path="/band" component={Band} />
-                      <Route exact path="/gallery" component={Gallery} />
+                      <Route path="/gallery" component={Gallery} />
+                      <Route path="/band" component={Band} />
+                      <Route exact path="/" component={Home} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>{" "}

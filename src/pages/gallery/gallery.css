@@ -9,14 +9,21 @@
 }
 .sxva {
   width: 100%;
-  height: 80vh;
+  height: 82vh;
   background-color: rgba(0, 0, 0, 0.548);
-  background: url("../band/dat.JPG");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.slick-next {
-  right: 25px;
+.sxva img {
+  width: 100%;
+  height: 100%;
+}
+
+.dot svg path {
+  transition: all linear 0.5s;
+}
+
+.dot:hover svg path,
+.dot:hover {
+  fill: #13c1e9;
+  color: #13c1e9;
 }
