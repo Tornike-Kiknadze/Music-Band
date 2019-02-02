@@ -19,7 +19,7 @@ class Gallery extends Component {
       customPaging: function(i) {
         return (
           <div class="dot">
-            <Dot width={20} height={18} />
+            <Dot width={20} height={15} />
           </div>
         );
       }
