@@ -9,6 +9,7 @@ import NavBar from "./components/navigation/nav";
 
 import Band from "./pages/band/band";
 import Home from "./pages/home/home";
+import Gallery from "./pages/gallery/gallery";
 class App extends Component {
   render() {
     return (
@@ -17,14 +18,12 @@ class App extends Component {
           <Route
             render={({ location }) => (
               <Container>
-                {" "}
                 <NavBar />
-
                 <TransitionGroup>
                   <CSSTransition
                     key={location.key}
                     classNames="fade"
-                    timeout={280}
+                    timeout={480}
                     unmountOnExit
                   >
                     <Switch location={location}>
@@ -32,9 +31,11 @@ class App extends Component {
                       {/*    <AudioPlayer /> */}
                       <Route exact path="/" component={Home} />{" "}
                       <Route exact path="/band" component={Band} />
+                      <Route exact path="/gallery" component={Gallery} />
                     </Switch>
                   </CSSTransition>
-                </TransitionGroup>{" "}    <AudioPlayer />
+                </TransitionGroup>{" "}
+                <AudioPlayer />
               </Container>
             )}
           />

@@ -3,7 +3,7 @@
   height: 100%;
   width: 100%;
   top: 0;
-  transition: all ease-in-out .5s ;
+  transition: all ease-in-out 0.5s;
 }
 /* .panel {
   display: flex;
@@ -98,25 +98,25 @@
   text-align: center;
   width: 100vw;
 }
- */.gallery {
+ */
+.gallery {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height:100vh;
-   
+  height: 100vh;
 }
 .gallery .item {
-  flex: 1; 
+  flex: 1;
   height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: none;
-  
+
   margin-right: -14px;
-  box-shadow: 0 1px 4px 0 rgba(10,16,34,0.2);
+  box-shadow: 0 1px 4px 0 rgba(10, 16, 34, 0.2);
   border-radius: 0;
   will-change: flex, transform, box-shadow;
-  transition: all 700ms ease .4s;
+  transition: all 700ms ease 0.4s;
 }
 .gallery .item::before {
   content: "";
@@ -129,48 +129,44 @@
   background-color: rgba(0, 0, 0, 0.76);
   box-shadow: 0 0 1px #000;
   -webkit-transition: height 0.3s ease;
-   
-  transition: all ease .2s;
+
+  transition: all ease 0.2s;
 }
 .gallery .item:hover::before {
- opacity: 0;
+  opacity: 0;
 }
 .gallery .item:first-child {
   border-radius: 5px 0 0 5px;
-  
 }
- 
- 
+
 .gallery .item:last-child {
   border-radius: 0 5px 5px 0;
-  z-index: 1  ;
-  margin-right: 0  ;
+  z-index: 1;
+  margin-right: 0;
 }
 .gallery .item:hover {
-  
   flex: 4;
   border-radius: 5px;
   z-index: 2;
-  box-shadow: 0 12px 24px 0 rgba(10,16,34,0.3), 0 0 0 transparent;
+  box-shadow: 0 12px 24px 0 rgba(10, 16, 34, 0.3), 0 0 0 transparent;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .gallery .item-1 {
-  background-image: url('./sh.jpg');
+  background-image: url("./sh.jpg");
 }
 .gallery .item-2 {
-  background-image: url('./mindia.jpg');  
-   background-position:10%;
+  background-image: url("./mindia.jpg");
+  background-position: 10%;
   background-size: cover;
 }
 .gallery .item-5 {
-  background-image: url('rusa.jpg');
-  
+  background-image: url("rusa.jpg");
 }
 .gallery .item-4 {
   background-image: url("dat.JPG");
 }
 .gallery .item-3 {
   background-image: url("./irakli.jpg");
-  background-position:50%;
+  background-position: 50%;
 }

@@ -1,0 +1,22 @@
+.slider-wrapper {
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.5s;
+  position: absolute;
+  top: 0;
+  padding: 3rem;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+.sxva {
+  width: 100%;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.548);
+  background: url("../band/dat.JPG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slick-next {
+  right: 25px;
+}
