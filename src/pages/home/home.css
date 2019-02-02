@@ -49,8 +49,8 @@
 
   position: relative;
   background: #232526;
-  background: -webkit-linear-gradient(to bottom, #414345e5, #232526e7);
-  background: linear-gradient(to bottom, #414345e5, #232526e7);
+  background: -webkit-linear-gradient(to bottom, #414345a6, #23252698);
+  background: linear-gradient(to bottom, #414345a6, #23252698);
 }
 .nav-gradient {
   height: 10%;

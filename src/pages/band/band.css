@@ -116,7 +116,7 @@
   box-shadow: 0 1px 4px 0 rgba(10,16,34,0.2);
   border-radius: 0;
   will-change: flex, transform, box-shadow;
-  transition: flex 700ms ease, transform 700ms ease, box-shadow 700ms ease, -webkit-transform 700ms ease, border-radius 700ms ease;
+  transition: all 700ms ease .4s;
 }
 .gallery .item::before {
   content: "";
@@ -129,8 +129,8 @@
   background-color: rgba(0, 0, 0, 0.76);
   box-shadow: 0 0 1px #000;
   -webkit-transition: height 0.3s ease;
-  transition: height 0.3s ease;
-  transition: all linear .2s;
+   
+  transition: all ease .2s;
 }
 .gallery .item:hover::before {
  opacity: 0;
