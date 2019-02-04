@@ -1,7 +1,7 @@
 .home-wrapper {
   position: absolute;
   width: 100%;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.3s;
   height: 100%;
   top: 0;
   background-color: rgba(22, 20, 20, 0.8);
@@ -14,14 +14,15 @@
 }
 
 .type-wrapper {
-  text-transform: uppercase;
   position: absolute;
-  width: 40%;
+  width: 50ch;
   height: 60%;
-  line-height: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.7rem;
   bottom: 0;
-
-  color: rgba(255, 255, 255, 0.664);
+  font-family: inherit;
+  color: #fff;
   text-align: left;
   margin-left: 3rem;
 }

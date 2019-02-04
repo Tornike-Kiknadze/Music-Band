@@ -10,6 +10,7 @@ import NavBar from "./components/navigation/nav";
 import Band from "./pages/band/band";
 import Home from "./pages/home/home";
 import Gallery from "./pages/gallery/gallery";
+import Contact from "./pages/contact/contact";
 class App extends Component {
   render() {
     return (
@@ -29,6 +30,7 @@ class App extends Component {
                     <Switch location={location}>
                       {" "}
                       <Route path="/gallery" component={Gallery} />
+                      <Route path="/contact" component={Contact} />
                       <Route path="/band" component={Band} />
                       <Route exact path="/" component={Home} />
                     </Switch>

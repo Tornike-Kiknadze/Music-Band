@@ -10,11 +10,13 @@ class Band extends Component {
     return (
       <div className="panel-wrapper">
         <div class="gallery">
-          <div class="item item-1"></div>
-          <div class="item item-2"></div>
-          <div class="item item-3"></div>
-          <div class="item item-4"></div>
-          <div class="item item-5"></div>
+          <div class="item item-1" />
+          <div class="item item-2" />
+          <div class="item item-3" />
+          <div class="item item-4">
+            <p>davit bichiashvili</p>
+          </div>
+          <div class="item item-5" />
         </div>
       </div>
     );

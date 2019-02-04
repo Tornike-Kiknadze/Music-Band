@@ -5,14 +5,15 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div class="home-wrapper"> <div class="type-wrapper">
-          <Type />
-        </div>
+        <div class="home-wrapper">
+          {" "}
+          <div className="type-wrapper">
+            <Type className="type-wrapper" />
+          </div>
           <div className="home">
             <div className="home-gradient fade">
               {" "}
               <h1>BLUE CAT</h1>{" "}
-
             </div>
           </div>
           <div className="nav">
