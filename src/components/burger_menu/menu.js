@@ -1,5 +1,5 @@
 import React from "react";
-import { elastic as Menu } from "react-burger-menu";
+import { slide as Menu } from "react-burger-menu";
 import { NavLink } from "react-router-dom";
 import "./menu.css";
 
@@ -7,7 +7,8 @@ class BurgerMenu extends React.Component {
   constructor() {
     super();
     this.state = {
-      width: window.innerWidth
+      width: window.innerWidth,
+      isOpen: false
     };
   }
 
@@ -37,7 +38,7 @@ class BurgerMenu extends React.Component {
         position: "fixed",
         width: "36px",
         height: "30px",
-        right: "20px",
+        left: "20px",
         top: "20px"
       },
       bmBurgerBars: {
@@ -58,9 +59,10 @@ class BurgerMenu extends React.Component {
         height: "100%"
       },
       bmMenu: {
-        background: "#373a47", //slide background
-        padding: "2.5em 1.5em 0",
-        fontSize: "1.15em"
+        background: "#232526", //slide background
+        overflow: "hidden",
+        fontSize: "1.15em",
+        outline: "none"
       },
       bmMorphShape: {
         fill: "#373a47"
@@ -73,28 +75,41 @@ class BurgerMenu extends React.Component {
       },
       bmItem: {
         display: "inline-block",
-        color: "#000",
-        margin: "20px",
+        width: "100%",
+        marginTop: "20px",
         textDecoration: "none",
-        textTransform: "uppercase"
+        textTransform: "uppercase",
+        color: "white"
       },
       bmOverlay: {
         background: "rgba(0, 0, 0, 0.3)"
       }
     };
+
     if (isMobile) {
       return (
-        <Menu right styles={styles}>
-          <NavLink id="home" className="menu-item" to="/">
-            Home
+        <Menu isOpen={this.state.isOpen} styles={styles}>
+          <NavLink
+            exact
+            id="home"
+            className="menu-item"
+            activeClassName="active"
+            to="/"
+          >
+            <p>Home</p>
           </NavLink>
-          <NavLink className="menu-item" to="/band">
-            About
+          <NavLink activeClassName="active" className="menu-item" to="/band">
+            Band
           </NavLink>
-          <NavLink className="menu-item" to="/gallery">
+          <NavLink activeClassName="active" className="menu-item" to="/gallery">
             gallery
           </NavLink>
-          <NavLink id="contact" className="menu-item" to="/contact">
+          <NavLink
+            activeClassName="active"
+            id="contact"
+            className="menu-item"
+            to="/contact"
+          >
             Contact
           </NavLink>
         </Menu>
