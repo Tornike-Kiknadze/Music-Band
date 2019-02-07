@@ -4,27 +4,53 @@
   transition: all ease-in-out 0.3s;
   position: absolute;
   top: 0;
-  padding: 3rem;
+  overflow: scroll;
   background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
 }
 .sxva {
   width: 100%;
-  height: 80vh;
-
-  padding: 0.5rem;
 }
-
+.sxva:nth-child(1) img {
+  animation: motion ease-in-out 2.5s;
+}
+.sxva:nth-child(2) img {
+  animation: motion ease-in-out 2.2s;
+}
+.sxva:nth-child(3) img {
+  animation: motion ease-in-out 1.99s;
+}
+.sxva:nth-child(4) img {
+  animation: motion ease-in-out 1.96s;
+}
+.sxva:nth-child(5) img {
+  animation: motion ease-in-out 1.93s;
+}
+.sxva:nth-child(6) img {
+  animation: motion ease-in-out 1.9s;
+}
 .sxva img {
-  width: 100%;
-  height: 100%;
+  width: 30%;
+
+  margin: 1rem;
+  float: left;
+  border-radius: 3px;
+
+  cursor: pointer;
 }
 
-.dot svg path {
-  transition: all linear 0.5s;
+.sxva img:hover {
+  -webkit-box-shadow: 10px 13px 50px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 13px 50px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 13px 50px -9px rgba(0, 0, 0, 0.75);
 }
 
-.dot:hover svg path,
-.dot:hover {
-  fill: #13c1e9;
-  color: #13c1e9;
+@keyframes motion {
+  from {
+    opacity: 0;
+    transform: translateX(-550px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

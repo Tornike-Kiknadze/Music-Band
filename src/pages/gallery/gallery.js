@@ -28,14 +28,11 @@ class Gallery extends Component {
 
     return (
       <div class="slider-wrapper">
-        <Slider {...settings}>
-          {members.map(member => (
-            <div className="sxva">
-              {" "}
-              <img src={require(`../band/${member}.jpg`)} />{" "}
-            </div>
-          ))}
-        </Slider>{" "}
+        {members.map(member => (
+          <div className="sxva">
+            <img src={require(`../band/${member}.jpg`)} />
+          </div>
+        ))}
       </div>
     );
   }

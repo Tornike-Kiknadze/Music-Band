@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./home.css";
 import Type from "../../components/typist/typist";
+
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
         <div class="home-wrapper">
-          {" "}
           <div className="type-wrapper">
             <Type className="type-wrapper" />
           </div>

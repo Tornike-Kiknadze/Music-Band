@@ -4,12 +4,12 @@ import "./contact.css";
 import Youtube from "../../assets/svg/youtube";
 import Facebook from "../../assets/svg/facebook";
 import Cat from "../../assets/svg/cat";
+
 class Contact extends Component {
   render() {
     return (
       <React.Fragment>
         <div class="contact-wrapper">
-          {" "}
           <div class="type-wrapper">
             <p>you can find us on facebook and youtube </p>
           </div>

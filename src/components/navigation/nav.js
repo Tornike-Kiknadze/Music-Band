@@ -14,27 +14,33 @@ class NavBar extends Component {
       /*    <div class="table">
         <div class="cell"> */
       <ul class="dots">
-        <li><p>home</p>
+        {" "}
+        <li>
+          <p>home</p>
           <NavLink exact activeClassName="active" to="/">
             Home
           </NavLink>
         </li>
-        <li><p>band</p>
+        <li>
+          <p>band</p>
           <NavLink activeClassName="active" to="/band">
             band
           </NavLink>
-        </li>
-        <li><p>gallery</p>
+        </li>{" "}
+        <li>
+          <p>gallery</p>
           <NavLink activeClassName="active" to="/gallery">
             gallery
           </NavLink>
         </li>
-        <li><p>contact</p>
+        <li>
+          <p>contact</p>
           <NavLink activeClassName="active" to="/contact">
             contact
           </NavLink>
         </li>
       </ul>
+
       /*    </div>
       </div> */
     );
