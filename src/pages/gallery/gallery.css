@@ -5,39 +5,58 @@
   position: absolute;
   top: 0;
   overflow: scroll;
-  background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f5ae8,
+    #c471ede0,
+    #12c2e9de
+  );
+  background: linear-gradient(to right, #f64f5ae8, #c471ede0, #12c2e9de);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .slider-wrapper {
+    padding-top: 6rem;
+  }
 }
 .sxva {
-  width: 100%;
+  padding: 0;
 }
 .sxva:nth-child(1) img {
-  animation: motion ease-in-out 2.5s;
+  animation: motion ease-in-out 1.6s;
 }
 .sxva:nth-child(2) img {
-  animation: motion ease-in-out 2.2s;
+  animation: motion ease-in-out 1.5s;
 }
 .sxva:nth-child(3) img {
-  animation: motion ease-in-out 1.99s;
+  animation: motion ease-in-out 1.4s;
 }
 .sxva:nth-child(4) img {
-  animation: motion ease-in-out 1.96s;
+  animation: motion ease-in-out 1.3s;
 }
 .sxva:nth-child(5) img {
-  animation: motion ease-in-out 1.93s;
+  animation: motion ease-in-out 1.2s;
 }
 .sxva:nth-child(6) img {
-  animation: motion ease-in-out 1.9s;
+  animation: motion ease-in-out 1s;
 }
 .sxva img {
-  width: 30%;
-
-  margin: 1rem;
-  float: left;
   border-radius: 3px;
-
+  height: 40rem;
+  width: 35rem;
   cursor: pointer;
+  margin: 1rem;
 }
-
+@media (max-width: 500px) {
+  .sxva img {
+    width: 32rem;
+    margin: 0.5rem;
+  }
+}
 .sxva img:hover {
   -webkit-box-shadow: 10px 13px 50px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 13px 50px -9px rgba(0, 0, 0, 0.75);
@@ -46,11 +65,9 @@
 
 @keyframes motion {
   from {
-    opacity: 0;
-    transform: translateX(-550px);
+    transform: translatez(-550px);
   }
   to {
-    opacity: 1;
-    transform: translateX(0px);
+    transform: translatez(0px);
   }
 }

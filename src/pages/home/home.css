@@ -87,6 +87,7 @@
 @media (max-width: 500px) {
   .nav-gradient {
     top: 20%;
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
