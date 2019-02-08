@@ -50,6 +50,7 @@
   width: 35rem;
   cursor: pointer;
   margin: 1rem;
+  transition: all linear 0.2s;
 }
 @media (max-width: 500px) {
   .sxva img {
