@@ -10,11 +10,12 @@ class Contact extends Component {
     return (
       <React.Fragment>
         <div class="contact-wrapper">
-          <div class="type-wrapper">
+          {" "}
+          <Cat width={60} height={60} className="cat" />
+          <div class="p-wrapper">
             <p>you can find us on facebook and youtube </p>
           </div>
           <div className="contact">
-            <Cat width={60} height={60} className="margin" />
             <div className="contact-gradient">
               <Youtube width={60} height={60} className="margin" />
               <Facebook width={60} height={60} className="margin" />
