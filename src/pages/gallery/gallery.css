@@ -5,13 +5,15 @@
   position: absolute;
   top: 0;
   overflow: scroll;
-  background: -webkit-linear-gradient(
+
+  background-color: rgba(22, 20, 20, 0.96);
+  /*   background: -webkit-linear-gradient(
     to right,
     #f64f5ae8,
     #c471ede0,
     #12c2e9de
   );
-  background: linear-gradient(to right, #f64f5ae8, #c471ede0, #12c2e9de);
+  background: linear-gradient(to right, #f64f5ae8, #c471ede0, #12c2e9de); */
   display: flex;
   align-items: center;
   padding: 1rem;
@@ -46,6 +48,7 @@
 }
 .sxva img {
   border-radius: 3px;
+  border: 1px solid #1a9fc3;
   height: 40rem;
   width: 35rem;
   cursor: pointer;
