@@ -7,6 +7,11 @@
   background-color: rgba(22, 20, 20, 0.8);
   display: flex;
 }
+@media (max-width: 500px) {
+  .home-wrapper {
+    overflow: scroll;
+  }
+}
 .home {
   position: relative;
   width: 75%;
@@ -50,15 +55,25 @@
   padding: 2rem;
   background: rgba(0, 0, 0, 0.322);
 }
-
+@media (max-width: 500px) {
+  .home-gradient {
+    top: 20%;
+  }
+}
 .nav {
   width: 25%;
   color: white;
 
   position: relative;
-  background: #232526;
+
   background: -webkit-linear-gradient(to bottom, #414345a6, #23252698);
   background: linear-gradient(to bottom, #414345a6, #23252698);
+}
+@media (max-width: 500px) {
+  .nav {
+    background: -webkit-linear-gradient(to bottom, #4143450c, #23252600);
+    background: linear-gradient(to bottom, #41434500, #23252602);
+  }
 }
 .nav-gradient {
   height: 10%;
@@ -68,6 +83,11 @@
   background: #12c2e9;
   background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+@media (max-width: 500px) {
+  .nav-gradient {
+    top: 20%;
+  }
 }
 @media (max-width: 500px) {
   .home-gradient h1 {
