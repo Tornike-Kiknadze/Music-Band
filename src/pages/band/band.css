@@ -37,14 +37,13 @@
   text-transform: uppercase;
   transform: translateY(1000px);
   transition: all ease 0.5s 0.45s;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
 
   position: relative;
 }
 
 .item span {
   font-family: "Finger Paint", cursive;
+  color: #28b8ea;
 }
 
 .item:hover p {

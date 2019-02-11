@@ -17,8 +17,16 @@ class Contact extends Component {
           </div>
           <div className="contact">
             <div className="contact-gradient">
-              <Youtube width={60} height={60} className="margin" />
-              <Facebook width={60} height={60} className="margin" />
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCJvHjib-I_sNFIGsCWL621g/videos"
+              >
+                <Youtube width={60} height={60} className="margin" />
+              </a>
+
+              <a target="_blank" href="https://www.facebook.com/bandbluecat/">
+                <Facebook width={60} height={60} className="margin" />
+              </a>
             </div>
           </div>
           <div className="box">
