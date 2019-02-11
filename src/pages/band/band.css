@@ -17,13 +17,38 @@
   height: 100%;
   background-position: center;
   background-size: cover;
-  background-repeat: none;
+
   display: flex;
   margin-right: -14px;
   box-shadow: 0 1px 4px 0 rgba(10, 16, 34, 0.2);
   border-radius: 0;
   will-change: flex, transform, box-shadow;
   transition: all 700ms ease 0.4s;
+}
+
+.item p {
+  color: white;
+  padding-top: 4rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 50%;
+  align-self: flex-end;
+  width: 100%;
+  font-size: 2rem;
+  text-transform: uppercase;
+  transform: translateY(1000px);
+  transition: all ease 0.5s 0.45s;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+
+  position: relative;
+}
+
+.item span {
+  font-family: "Finger Paint", cursive;
+}
+
+.item:hover p {
+  transform: translateY(100px);
 }
 .gallery .item::before {
   content: "";
@@ -64,8 +89,6 @@
 }
 .gallery .item-2 {
   background-image: url("./mindia.jpg");
-  background-position: 10%;
-  background-size: cover;
 }
 .gallery .item-5 {
   background-image: url("rusa.jpg");
@@ -76,5 +99,9 @@
 }
 .gallery .item-3 {
   background-image: url("./irakli.jpg");
+  background-position: 50%;
+}
+.gallery .item-6 {
+  background-image: url("./tornike.jpg");
   background-position: 50%;
 }

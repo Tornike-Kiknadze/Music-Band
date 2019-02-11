@@ -36,27 +36,21 @@ class NavBar extends Component {
           {" "}
           <li>
             <p>home</p>
-            <NavLink exact activeClassName="active" to="/">
+            <NavLink exact to="/">
               Home
             </NavLink>
           </li>
           <li>
             <p>band</p>
-            <NavLink activeClassName="active" to="/band">
-              band
-            </NavLink>
+            <NavLink to="/band">band</NavLink>
           </li>{" "}
           <li>
             <p>gallery</p>
-            <NavLink activeClassName="active" to="/gallery">
-              gallery
-            </NavLink>
+            <NavLink to="/gallery">gallery</NavLink>
           </li>
           <li>
             <p>contact</p>
-            <NavLink activeClassName="active" to="/contact">
-              contact
-            </NavLink>
+            <NavLink to="/contact">contact</NavLink>
           </li>
         </ul>
       );

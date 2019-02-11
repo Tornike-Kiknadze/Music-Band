@@ -6,7 +6,15 @@ import "slick-carousel/slick/slick-theme.css";
 
 class Gallery extends Component {
   render() {
-    const members = ["irakli", "mindia", "rusa", "sh", "stef", "dato"];
+    const members = [
+      "irakli",
+      "mindia",
+      "rusa",
+      "sh",
+      "stef",
+      "dato",
+      "tornike"
+    ];
 
     const settings = {
       dots: true,

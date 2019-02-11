@@ -93,19 +93,27 @@ class BurgerMenu extends React.Component {
             exact
             id="home"
             className="menu-item"
-            activeClassName="active"
+            activeClassName="active-burger"
             to="/"
           >
             <p>Home</p>
           </NavLink>
-          <NavLink activeClassName="active" className="menu-item" to="/band">
+          <NavLink
+            activeClassName="active-burger"
+            className="menu-item"
+            to="/band"
+          >
             Band
           </NavLink>
-          <NavLink activeClassName="active" className="menu-item" to="/gallery">
+          <NavLink
+            activeClassName="active-burger"
+            className="menu-item"
+            to="/gallery"
+          >
             gallery
           </NavLink>
           <NavLink
-            activeClassName="active"
+            activeClassName="active-burger"
             id="contact"
             className="menu-item"
             to="/contact"

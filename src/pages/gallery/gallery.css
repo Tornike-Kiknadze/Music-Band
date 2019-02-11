@@ -6,7 +6,7 @@
   top: 0;
   overflow: scroll;
 
-  background-color: rgba(22, 20, 20, 0.96);
+  background-color: rgba(22, 20, 20, 0.9);
   /*   background: -webkit-linear-gradient(
     to right,
     #f64f5ae8,
@@ -23,6 +23,7 @@
 @media (max-width: 500px) {
   .slider-wrapper {
     padding-top: 6rem;
+    background-color: #363738;
   }
 }
 .sxva {
@@ -48,7 +49,7 @@
 }
 .sxva img {
   border-radius: 3px;
-  border: 1px solid #1a9fc3;
+
   height: 40rem;
   width: 35rem;
   cursor: pointer;
@@ -64,7 +65,7 @@
 .sxva img:hover {
   -webkit-box-shadow: 10px 13px 50px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 13px 50px -9px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 13px 50px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 13px 50px -9px rgba(61, 59, 59, 0.75);
 }
 
 @keyframes motion {

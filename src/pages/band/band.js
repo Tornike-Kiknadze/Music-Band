@@ -10,13 +10,54 @@ class Band extends Component {
     return (
       <div className="panel-wrapper">
         <div class="gallery">
-          <div class="item item-1" />
-          <div class="item item-2" />
-          <div class="item item-3" />
-          <div class="item item-4">
-            <p>davit bichiashvili</p>
+          <div class="item item-1">
+            {" "}
+            <p>
+              giorgi shaverdovi <br />
+              <br />
+              <br /> <span>bass guitar</span>
+            </p>
           </div>
-          <div class="item item-5" />
+          <div class="item item-2">
+            {" "}
+            <p>
+              mindia lukuridze <br />
+              <br />
+              <br /> <span>guitar</span>
+            </p>
+          </div>
+          <div class="item item-3">
+            {" "}
+            <p>
+              irakli lomsadze
+              <br />
+              <br />
+              <br /> <span>keyboard</span>
+            </p>
+          </div>
+          <div class="item item-4">
+            <p>
+              davit bichiashvili <br />
+              <br />
+              <br /> <span>guitar</span>
+            </p>
+          </div>
+          <div class="item item-5">
+            {" "}
+            <p>
+              rusa jijiashvili <br />
+              <br />
+              <br /> <span>vocals</span>{" "}
+            </p>
+          </div>
+          <div class="item item-6">
+            {" "}
+            <p>
+              tornike lukuridze <br />
+              <br />
+              <br /> <span>drums</span>{" "}
+            </p>
+          </div>
         </div>
       </div>
     );
