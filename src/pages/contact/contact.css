@@ -12,8 +12,7 @@
   display: flex;
   height: 100%;
   position: relative;
-  background: -webkit-linear-gradient(to left, #f64f5ae3, #c471edd3, #12c2e9d2);
-  background: linear-gradient(to right, #f64f5aa9, #c471ed88, #12c2e996);
+ 
 }
 
 .p-wrapper {
