@@ -7,18 +7,13 @@
   overflow: scroll;
 
   background-color: rgba(22, 20, 20, 0.9);
-  /*   background: -webkit-linear-gradient(
-    to right,
-    #f64f5ae8,
-    #c471ede0,
-    #12c2e9de
-  );
-  background: linear-gradient(to right, #f64f5ae8, #c471ede0, #12c2e9de); */
+ 
+   
   display: flex;
   align-items: center;
   padding: 1rem;
   flex-wrap: wrap;
-  justify-content: center;
+justify-content: space-evenly;
 }
 @media (max-width: 500px) {
   .slider-wrapper {
@@ -51,7 +46,7 @@
   border-radius: 3px;
 
   height: 40rem;
-  width: 35rem;
+  width: auto;
   cursor: pointer;
   margin: 1rem;
   transition: all linear 0.2s;

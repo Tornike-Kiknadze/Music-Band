@@ -9,11 +9,11 @@ class Gallery extends Component {
     const members = [
       "irakli",
       "mindia",
+      "tornike",
+      "dato",
       "rusa",
       "sh",
-      "stef",
-      "dato",
-      "tornike"
+
     ];
 
     const settings = {

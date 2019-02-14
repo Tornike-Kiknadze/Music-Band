@@ -8,7 +8,7 @@ class Home extends Component {
       <React.Fragment>
         <div class="home-wrapper">
           <div className="type-wrapper">
-            <Type className="type-wrapper" />
+            {/* <Type className="type-wrapper" /> */}
           </div>
           <div className="home">
             <div className="home-gradient fade">
