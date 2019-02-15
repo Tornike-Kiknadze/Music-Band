@@ -7,12 +7,12 @@ import "slick-carousel/slick/slick-theme.css";
 class Gallery extends Component {
   render() {
     const members = [
-      "irakli",
-      "mindia",
-      "tornike",
-      "dato",
-      "rusa",
-      "sh",
+      "b",
+      "l",
+      "u",
+      "e",
+      "c",
+
 
     ];
 
@@ -38,7 +38,7 @@ class Gallery extends Component {
       <div class="slider-wrapper">
         {members.map(member => (
           <div className="sxva">
-            <img src={require(`../band/${member}.jpg`)} />
+            <img src={require(`./src/${member}.jpg`)} />
           </div>
         ))}
       </div>
