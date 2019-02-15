@@ -2,47 +2,36 @@
   width: 100%;
   height: 100%;
   transition: all ease-in-out 0.3s;
-  position: absolute;
+  
   top: 0;
   overflow: scroll;
-  padding: 12rem;
-  background-color: rgba(22, 20, 20, 0.9);
+  padding:2rem;
+  background-color: rgba(22, 20, 20, 0.973);
   max-width: 100%;
   height: 100%;
   font-size: 2rem;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
   
-  top: 0;
   position: absolute;
-  overflow-x: hidden;
-   
-  display: flex;
-  align-items: center;
-  
   flex-wrap: wrap;
-justify-content: space-evenly;
+ 
 }
 @media (max-width: 500px) {
   .slider-wrapper {
-    padding-top: 6rem;
+    padding: 6rem 0 0 0;
     background-color: #202224;
   }
 }
 .sxva {
-  padding: 0;  flex: 1 0 50%;
-  min-width: 35rem;
-  height: 50%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  /*  border: 1px solid #ff4ba8; */
-  border-radius: 2px;
+ 
+   flex: 1 0 50%;
+  
+  height: calc(55%);
+ padding: 2rem;
+ 
 }
-.sxva:nth-child(1) img {
+/* .sxva:nth-child(1) img {
   animation: motion ease-in-out 1.6s;
 }
 .sxva:nth-child(2) img {
@@ -53,16 +42,21 @@ justify-content: space-evenly;
 }
 .sxva:nth-child(4) img {
   animation: motion ease-in-out 1.3s;
-}
+} */
 .sxva:nth-child(5) img {
-  animation: motion ease-in-out 1.2s;
+  width: calc(50%);
 }
-.sxva:nth-child(6) img {
-  animation: motion ease-in-out 1s;
+
+@media (max-width: 500px) {
+  .sxva:nth-child(5) img  {
+    width: calc(100%);
+  }
 }
-.sxva img {
-  
  
+.sxva img {
+  width: calc(100%);
+  height: calc(100%  );
+   
   transition: all linear 0.2s;
 }
 @media (max-width: 500px) {
