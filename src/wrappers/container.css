@@ -6,4 +6,5 @@
   background-size: cover;
   background-image: url("./bak.jpg");
   position: relative;
+  background-position:center center;
 }
