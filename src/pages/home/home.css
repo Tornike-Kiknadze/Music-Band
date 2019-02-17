@@ -60,6 +60,12 @@
     top: 20%;
   }
 }
+@media (max-height: 768px) {
+  .home-gradient {
+  
+    font-size: 3rem;
+  }
+}
 .nav {
   width: 25%;
   color: white;

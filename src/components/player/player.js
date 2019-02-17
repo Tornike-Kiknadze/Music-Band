@@ -136,18 +136,18 @@ class AudioPlayer extends Component {
     };
 
     if (isMobile) {
-      return (
-        <div className="zet">
-          {" "}
-          <ReactJkMusicPlayer
-            audioLists={options.audioLists}
-            autoPlay={false}
-            mode={"mini"}
-            bounds={100}
-            defaultPosition={{ bottom: 0, right: 0 }}
-          />
-        </div>
-      );
+      return null
+      /*         <div className="zet">
+                {" "}
+                <ReactJkMusicPlayer
+                  audioLists={options.audioLists}
+                  autoPlay={false}
+                  mode={"mini"}
+                  bounds={100}
+                  defaultPosition={{ bottom: 0, right: 0 }}
+                />
+              </div> */
+
     } else {
       return (
         <div className="zet">

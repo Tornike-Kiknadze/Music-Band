@@ -32,7 +32,7 @@ class NavBar extends Component {
       return null;
     } else {
       return (
-        <ul class="dots">
+        <ul className="dots">
           {" "}
           <li>
             <p>home</p>
