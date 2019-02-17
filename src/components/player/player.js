@@ -154,7 +154,7 @@ class AudioPlayer extends Component {
           {" "}
           <ReactJkMusicPlayer
             audioLists={options.audioLists}
-            bounds={100}
+
             autoPlay={false}
             mode={"full"}
             defaultPosition={{ bottom: 40, right: 40 }}

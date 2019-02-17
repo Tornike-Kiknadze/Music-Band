@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div class="home-wrapper">
+        <div className="home-wrapper">
           <div className="type-wrapper">
             <Type className="type-wrapper" />
           </div>

@@ -19,12 +19,13 @@ class Contact extends Component {
             <div className="contact-gradient">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.youtube.com/channel/UCJvHjib-I_sNFIGsCWL621g/videos"
               >
                 <Youtube width={60} height={60} className="margin" />
               </a>
 
-              <a target="_blank" href="https://www.facebook.com/bandbluecat/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bandbluecat/">
                 <Facebook width={60} height={60} className="margin" />
               </a>
             </div>
