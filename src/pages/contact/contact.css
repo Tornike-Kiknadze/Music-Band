@@ -65,6 +65,16 @@
 svg path {
   transition: all linear 0.3s;
 }
+
+@media (max-height: 700px) {
+  svg{
+   width:50px;
+   max-height: 50px;
+  }
+}
+
+
+
 .contact-gradient a:hover svg path {
   fill: #c95380;
   color: #c95380;
